@@ -1,6 +1,6 @@
 // write your code below!
-function happyHolidaysTo (){
-return('Happy Holidays!')
+function happyHolidays (){
+return('Happy holidays!')
 }
 
 var name = "Joe";
