@@ -5,16 +5,13 @@ function happyHolidays(){
 
 function happyHolidaysTo(name){
   return (`Happy holidays, ${name}!`)
-};
+}
 
-var name = "Bob";
-var holiday = "Christmas";
-function happyHolidayTo (){
-  return ('Happy ${holiday}, ${name}!')
-};
+function happyHolidayTo (holiday, name){
+  return (`Happy ${holiday}, ${name}!`)
+}
 
-var days = "12"
-function holidayCountdown (){
+function holidayCountdown (days, holiday){
   return ("${days}" days until "${holiday}"!)
-};
+}
 
